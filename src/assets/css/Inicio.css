@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-app {
+    margin: 25px 0 25px 0;
+    width: 45vw;
+    height: 35vh;
+}
+ 
+.text{
+    width: 100%;
+}
+
+.text-p{
+    float: left;
+    width: 40vw;
+}
+
+.logo-app ,.imagen-ref{
+    border: 1px solid forestgreen;
+}
+
+.imagen-ref{
+    margin: 0 0 5px 30px;
+    width: 35vw;
+    height: 40vh;
+    display: inline-block;
+}
+
+.btn{
+  margin: 0 30px 0 55px ;
+}
+
+.quienes-somos, .contacto{
+    margin: 15px 0;
+    text-align: center;
+    background-color: rgb(223, 217, 217);
+    display: inline-block;
+}
+
+.servicio{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.servicio-img{
+    width: 310px;
+    margin: 5px 30px;
+
+}
+
+.contacto{
+    padding: 35px;
+}

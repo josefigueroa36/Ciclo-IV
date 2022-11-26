@@ -1,0 +1,19 @@
+footer{
+    color: black;
+    background-color: #808080;
+}
+
+.red-icon img{
+    width: 40px;
+    margin: 5px ;
+}
+
+.copy{
+    background-color: #585757;
+    text-align: center;
+}
+
+.copy p{
+    margin: auto;
+    color: black;
+}

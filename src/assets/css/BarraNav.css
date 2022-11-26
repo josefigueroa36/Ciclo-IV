@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Navbar {
+  background-color: #808080;
+}
+
+.cont ul li {
+  margin-right: 13vw;
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+.cont ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.cont ul li a:hover {
+  color: #000000;
+}
+
+.icono {
+  width: 40px;
+}
