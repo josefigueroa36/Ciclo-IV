@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #18335E;
+    --secondary-color: #ffffff;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+a{
+    color: var(--secondary-color);
+}
+
+a, a.nav-link:hover{
+    color: var(--secondary-color);
+}
+

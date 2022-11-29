@@ -1,12 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-}
+@import 'global';
 
 .Navbar {
-  background-color: #808080;
+  background-color: var(--primary-color);
+}
+
+a.nav-link{
+  color: var(--secondary-color);
+}
+
+a.nav-link:hover{
+  font-weight: bold;
 }
 
 .cont ul li {
@@ -14,15 +17,6 @@
   float: left;
   display: inline;
   position: relative;
-}
-
-.cont ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.cont ul li a:hover {
-  color: #000000;
 }
 
 .icono {

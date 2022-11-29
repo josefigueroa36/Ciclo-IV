@@ -1,8 +1,34 @@
+.conten{
+    height: 38rem
+}
 .icon-login{
     height: 7rem;
 }
 
-.username-icon, .password-icon{
+.username-icon{
+    height: 1rem
+}
+
+
+
+.password-icon{
     height: 1rem;
+}
+
+
+.recuerdame{
+    font-size: 0.9rem
+}
+
+.recu-contra{
+    font-size: 0.9rem
+}
+
+.or{
+    font-size: 0.9rem
+}
+
+.icon-google{
+    height: 1.6rem
 }
 

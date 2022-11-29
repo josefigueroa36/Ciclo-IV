@@ -1,6 +1,6 @@
 footer{
-    color: black;
-    background-color: #808080;
+    color: #ffffff;
+    background-color: #18335E;
 }
 
 .red-icon img{
@@ -9,11 +9,22 @@ footer{
 }
 
 .copy{
-    background-color: #585757;
+    background-color: #193b71;
     text-align: center;
 }
 
 .copy p{
     margin: auto;
-    color: black;
+    color: #ffffff;
 }
+
+footer li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: #ffffff;
+}
+
+

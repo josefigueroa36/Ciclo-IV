@@ -1,8 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+@import 'global';
+.body{
+    background-color: #a3b3ce;
+}
+
+.enunciado{
+    margin: 10px 0;
+
 }
 
 .logo-app {
@@ -16,12 +19,13 @@
 }
 
 .text-p{
+    color: var(--secondary-color);
     float: left;
     width: 40vw;
 }
 
 .logo-app ,.imagen-ref{
-    border: 1px solid forestgreen;
+    border: 1px solid #18335E;
 }
 
 .imagen-ref{
@@ -32,14 +36,15 @@
 }
 
 .btn{
-  margin: 0 30px 0 55px ;
+  margin: 0 40px 14px 55px ;
 }
 
-.quienes-somos, .contacto{
+.quienes-somos, .contacto, .servicio{
     margin: 15px 0;
     text-align: center;
-    background-color: rgb(223, 217, 217);
+    /* background-color: #211e9a; */
     display: inline-block;
+    color: var(--secondary-color);
 }
 
 .servicio{
