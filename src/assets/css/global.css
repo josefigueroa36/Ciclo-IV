@@ -1,6 +1,7 @@
 :root{
     --primary-color: #18335E;
-    --secondary-color: #ffffff;
+    --secondary-color: #193869;
+    --word-color: #ffff;
 }
 
 
@@ -9,14 +10,15 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: 0;
 }
 
 
 a{
-    color: var(--secondary-color);
+    color: var(--word-color);
 }
 
 a, a.nav-link:hover{
-    color: var(--secondary-color);
+    color: var(--word-color);
 }
 

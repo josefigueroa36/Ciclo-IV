@@ -1,6 +1,8 @@
+@import 'global';
+
 footer{
-    color: #ffffff;
-    background-color: #18335E;
+    color: var(--word-color);
+    background-color: var(--primary-color);
 }
 
 .red-icon img{
@@ -15,16 +17,16 @@ footer{
 
 .copy p{
     margin: auto;
-    color: #ffffff;
+    color: var(--word-color);
 }
 
 footer li a{
-    color: #ffffff;
+    color: var(--word-color);
     text-decoration: none;
 }
 
 footer li a:hover{
-    color: #ffffff;
+    color: var(--word-color);
 }
 
 

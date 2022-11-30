@@ -1,6 +1,6 @@
 @import 'global';
 .body{
-    background-color: #a3b3ce;
+    background-color: var(--secondary-color);
 }
 
 .enunciado{
@@ -19,13 +19,9 @@
 }
 
 .text-p{
-    color: var(--secondary-color);
+    color: var(--word-color);
     float: left;
     width: 40vw;
-}
-
-.logo-app ,.imagen-ref{
-    border: 1px solid #18335E;
 }
 
 .imagen-ref{
@@ -42,9 +38,8 @@
 .quienes-somos, .contacto, .servicio{
     margin: 15px 0;
     text-align: center;
-    /* background-color: #211e9a; */
     display: inline-block;
-    color: var(--secondary-color);
+    color: var(--word-color);
 }
 
 .servicio{

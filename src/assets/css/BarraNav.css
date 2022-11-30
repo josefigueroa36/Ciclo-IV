@@ -1,23 +1,23 @@
 @import 'global';
 
-.Navbar {
+nav.navbar {
+  
   background-color: var(--primary-color);
 }
 
 a.nav-link{
-  color: var(--secondary-color);
+  color: var(--word-color);
 }
 
 a.nav-link:hover{
   font-weight: bold;
 }
 
-.cont ul li {
-  margin-right: 13vw;
-  float: left;
+div.nav-item {
+  margin-right: 10vw;
   display: inline;
   position: relative;
-}
+} 
 
 .icono {
   width: 40px;

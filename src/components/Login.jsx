@@ -9,10 +9,8 @@ export const Login = () => {
             <BarraNav />
 
 
-            <form className="from bg-info d-flex justify-content-center align-items-center">
-                <div
-                    className="conten bg-white p-5 mt-2 rounded-5 text-secondary shadow"
-                >
+            <form className="form d-flex justify-content-center align-items-center">
+                <div className="conten bg-white p-5  rounded-5 text-secondary shadow">
                     <div className="d-flex justify-content-center">
                         <img
                             className='icon-login'
@@ -22,7 +20,7 @@ export const Login = () => {
                     </div>
                     <div className="text-center fs-1 fw-bold">Login</div>
                     <div className="input-group mt-4">
-                        <div className="input-group-text bg-info">
+                        <div className="input-group-text icon">
                             <img
                                 className='username-icon'
                                 src="./assets/img/username-icon.svg"
@@ -36,7 +34,7 @@ export const Login = () => {
                         />
                     </div>
                     <div className="input-group mt-1">
-                        <div className="input-group-text bg-info">
+                        <div className="input-group-text icon">
                             <img
                                 className='password-icon'
                                 src="./assets/img/password-icon.svg"
@@ -49,19 +47,13 @@ export const Login = () => {
                             placeholder="Password"
                         />
                     </div>
-                    <div className="d-flex justify-content-around mt-1">
-                        <div className="d-flex align-items-center gap-1">
-                            <input className="form-check-input" type="checkbox" />
-                            <div className="pt-1 recuerdame" >Remember me</div>
-                        </div>
-                        <div className="pt-1">
+                        <div className="d-flex justify-content-around mt-1 pt-1">
                             <a
                                 href="#"
                                 className="recu-contra text-decoration-none text-info fw-semibold fst-italic">
                                 Forgot your password?
                             </a>
                         </div>
-                    </div>
                     <button className="btn btn-info text-white w-50 mt-4 fw-semibold shadow-sm">
                         Ingresar
                     </button>
@@ -74,8 +66,8 @@ export const Login = () => {
                     </div>
                 </div>
             </form>
-{/* 
-            <PiePag /> */}
+            
+            <PiePag />
         </div>
     )
 }

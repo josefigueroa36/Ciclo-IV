@@ -34,7 +34,7 @@ export const Inicio = () => {
                             />
                         </section>
                     </article>
-                        <div clsName='botones'>
+                        <div className='botones'>
                             <a className='btn btn-primary' href='#'>
                                 Registrarse
                             </a>
@@ -45,7 +45,7 @@ export const Inicio = () => {
                         </div>
                 </div>
 
-                <article className='quienes-somos'>
+                <article id='quienes-somos' className='quienes-somos'>
                     <h1>Quienes Somos</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga ducimus ratione obcaecati in voluptatibus
@@ -56,7 +56,7 @@ export const Inicio = () => {
                         veritatis debitis officiis, quisquam delectus nesciunt corrupti incidunt? Ipsam ullam minima, impedit sapiente nihil ad.
                     </p>
                 </article>
-                <article className='servicio'>
+                <article id='servicios' className='servicio'>
                     <h1>Nuestros Servicios</h1>
                     <div className='conten-serv-img'>
                         <img className='servicio-img'
@@ -74,7 +74,7 @@ export const Inicio = () => {
                     </div>
                 </article>
 
-                <article className='contacto'>
+                <article id='contacto' className='contacto'>
                     <h1>Contacto</h1>
                     <p className='contacto-tex'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga ducimus ratione obcaecati in voluptatibus

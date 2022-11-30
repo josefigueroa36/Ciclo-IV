@@ -1,8 +1,19 @@
-.conten{
-    height: 38rem
+@import 'global';
+.form{
+    background-color: #193869;
+    height: 80vh;
 }
+
+.conten{
+    height: 30rem
+}
+
+div.icon, button.btn{
+    background: #193869;
+}
+
 .icon-login{
-    height: 7rem;
+    height: 5rem;
 }
 
 .username-icon{
