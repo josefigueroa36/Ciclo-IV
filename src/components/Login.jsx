@@ -9,7 +9,7 @@ export const Login = () => {
             <BarraNav />
 
 
-            <form className="form d-flex justify-content-center align-items-center">
+            <form action='/Dashboard' className="form d-flex justify-content-center align-items-center">
                 <div className="conten bg-white p-5  rounded-5 text-secondary shadow">
                     <div className="d-flex justify-content-center">
                         <img
@@ -54,7 +54,7 @@ export const Login = () => {
                                 Forgot your password?
                             </a>
                         </div>
-                    <button className="btn btn-info text-white w-50 mt-4 fw-semibold shadow-sm">
+                    <button type='submit' className="btn btn-info text-white w-50 mt-4 fw-semibold shadow-sm">
                         Ingresar
                     </button>
                     <div className="d-flex gap-1 justify-content-center mt-1">

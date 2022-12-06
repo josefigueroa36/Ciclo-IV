@@ -7,6 +7,7 @@ nav.navbar {
 
 a.nav-link{
   color: var(--word-color);
+  margin: 5px;
 }
 
 a.nav-link:hover{
@@ -14,7 +15,7 @@ a.nav-link:hover{
 }
 
 div.nav-item {
-  margin-right: 10vw;
+  margin-right: 11vw;
   display: inline;
   position: relative;
 } 
